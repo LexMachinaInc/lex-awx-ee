@@ -1,5 +1,5 @@
 # awx-build-custom-ee
-Short project to know how to create a basic AWX Execution Environment custom image based on Centos:stream9.  
+Short project to know how to create a basic AWX Execution Environment custom image based on Centos:stream10.
 In this example :
 - requirements.txt will be used to install
   - `requests` python module
