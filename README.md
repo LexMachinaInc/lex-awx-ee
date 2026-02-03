@@ -2,15 +2,14 @@
 Short project to know how to create a basic AWX Execution Environment custom image based on Centos:stream9.  
 In this example :
 - requirements.txt will be used to install
-  - `hvac` & `requests` python modules.
+  - `requests` python module
 - requirements.yml will be used to install 
-  - `community.hashi_vault` & `community.zabbix` ansible collections.
-- bindep.txt will be used to install some well known 'OS' packages.
-- EE size at the end is around 500MB (where official awx-ee that embbed a lot more stuff is 1.75GB)
+  - `community.general`, `kubernetes.core`, and `google.cloud` collections
+- bindep.txt will be used to install some well known 'OS' packages (such as python!)
 
 Project has been tested & validated with 
-- ansible-builder 3.1.0
-- Docker version 27.3.1, build ce12230
+- ansible-builder 3.1.1
+- Nerdctl version 1.7.6
 
 ## Requirements
 ### Linux Host
