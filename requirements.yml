@@ -1,9 +1,5 @@
 ---
 collections:
--  name: community.hashi_vault
--  name: community.zabbix
-
-# if needed, you can specify the version of collection you want, else it will download the latest by default.
-# Example :
-#-  name: community.zabbix
-#   version: 3.1.2
+- name: community.general
+- name: kubernetes.core
+- name: google.cloud
