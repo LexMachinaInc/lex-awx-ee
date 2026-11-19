@@ -9,7 +9,7 @@ env:
   PROJECT_ID: 'civic-origin-380'
   GAR_LOCATION: 'us-central1'
   REPOSITORY: 'lxm-docker'
-  IMAGE: 'static-site'
+  IMAGE: 'lex-awx-ee'
   WORKLOAD_IDENTITY_PROVIDER: "projects/45098631325/locations/global/workloadIdentityPools/civic-github/providers/github-actions"
 jobs:
   setup-build-publish-deploy:
